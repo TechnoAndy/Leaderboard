@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,11 +8,46 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 0;
-    color: #d2d2d2;
+    font-family: 'Comic Neue', cursive;
     font-weight: 600;
 }
 
-body {
-    background: #0f1319;
+#wrapper {
+padding-top: 50px;
+margin: 50px;
+}
+
+
+ul {
+    list-style: none;
+    border: solid 2px black;
+    margin-right: 1000px;
+}
+
+.score-board {
+    float: right;
+    width: 100%;
+}
+
+/* .list-scores {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.save-data {
+    float: right;
+    width: 100%;
+
+}
+
+input {
+    font-weight: 600;
+    height: 2em;
+    width: 5em;
+}
+
+#submit {
+    width: 5em;
 }

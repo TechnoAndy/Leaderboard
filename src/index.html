@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Leaderboard</title>
 </head>
 <body>
     <section id="wrapper">
-     <div id="board"></div>
+     <div id="heading">
       <h1>Leaderboard</h1>
-        <h1>Recent scores</h1>
-        <button id="update">Refresh</button>
-        <div id="list-scores">
+    </div>
+    <div class="score-board">
+        <h3>Recent scores</h3>
+        <button type="submit" id="update">Refresh</button>
+        <div class="list-scores">
         <ul>
-            <li>Name:100</li>
-            <li>Name:20</li>
-            <li>Name:50</li>
-            <li>Name:78</li>
-            <li>Name:125</li>
-            <li>Name:77</li>
-            <li>Name:42</li>
+            <li>Name: 100</li>
+            <li>Name: 20</li>
+            <li>Name: 50</li>
+            <li>Name: 78</li>
+            <li>Name: 125</li>
+            <li>Name: 77</li>
+            <li>Name: 42</li>
         </ul>
+    </div>
      </div>
-     </div>
-     <div id="save-data"></div>
-      <h2>Add your score</h2>
+     <section class="save-data">
+      <h3>Add your score</h3>
       <form name="add-score">
        <input type="text" name="player-name" placeholder="Your Name">
        <input type="text" name="player-score" placeholder="Your score">
        <button type="submit" id="new-score">Submit</button>
       </form>
-    </div>
  </section>
 </body>
 </html>
