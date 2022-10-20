@@ -1,53 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Comic Neue', cursive;
-    font-weight: 600;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
 }
 
 #wrapper {
-padding-top: 50px;
-margin: 50px;
+  margin-top: 50px;
+  margin: 30px;
 }
 
-
-ul {
-    list-style: none;
-    border: solid 2px black;
-    margin-right: 1000px;
+h1 {
+  font-size: 55px;
+  padding-top: 40px;
+  padding-bottom: -30px;
 }
 
-.score-board {
-    float: right;
-    width: 100%;
+h2 {
+  font-size: 30px;
 }
 
-/* .list-scores {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-.save-data {
-    float: right;
-    width: 100%;
-
+table {
+  width: 100%;
 }
 
-input {
-    font-weight: 600;
-    height: 2em;
-    width: 5em;
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.listscores {
+  border: solid 3px black;
+  margin-top: 10px;
 }
 
-#submit {
-    width: 5em;
+.scoreboard {
+  padding: 5% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: left;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.headscore {
+  float: right;
+  padding: 5%;
+}
+
+.addscorecontain {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 10px;
+}
+
+.scoreinputs {
+  border: solid 3px black;
+  margin-top: 10px;
+  padding: 3px 3px 3px 3px;
+  width: 75%;
+}
+
+.submit {
+  margin-left: 140px;
+  margin-top: 5px;
+}
+
+button {
+  border: solid 3px black;
+  box-shadow: 3px 3px;
+  padding: 3px 3px 3px 3px;
 }
