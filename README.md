@@ -9,6 +9,7 @@
 - HTML
 - CSS
 - Es6
+- Gitflow
 - Visual Studio Code
 
 ## Getting Started
