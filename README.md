@@ -8,7 +8,7 @@
 
 - HTML
 - CSS
-- Es6
+- ES6
 - Gitflow
 - Visual Studio Code
 
@@ -23,19 +23,21 @@ To get a local copy up and running follow these simple example steps.
 
 2.Clone this repo in your terminal or git bash using the command
 
-'git clone https://[github.com/TechnoAndy/Leaderoard.git](https://github.com/TechnoAndy/Leaderboard)'
+`git clone(https://github.com/TechnoAndy/Leaderoard.git)`
 
 3.run npm install to install all the necessary dependencies including the linters
 
 ## Run tests
-These were linter tests mainly
+Linter tests 
 
-For css, run 'npx hint .'
-Html, run 'npx stylelint "**/*.{css,scss}"'
-Javascript 'npx eslint .'
+For css, run `npx hint .`
+
+Html, run `npx stylelint "**/*.{css,scss}"`
+
+Javascript `npx eslint .`
 
 ## Run automated functionality test
-To check for functionality with automated test run 'npm test'
+To check for functionality with automated test run `npm test`
 ### Prerequisites
 - Have a Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
 - Have git installed on the Computer
