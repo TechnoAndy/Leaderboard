@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+}
+
+#wrapper {
+  margin: 30px;
+}
+
+h1 {
+  font-size: 55px;
+  padding-top: 40px;
+  padding-bottom: -30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.listscores {
+  border: solid 3px black;
+  margin-top: 10px;
+}
+
+.scoreboard {
+  padding: 5% 5%;
+  grid-template-columns: 1fr 1fr;
+  float: left;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.headscore {
+  float: right;
+  padding: 5%;
+}
+
+.addscorecontain {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 10px;
+}
+
+.scoreinputs {
+  border: solid 3px black;
+  margin-top: 10px;
+  padding: 3px 3px 3px 3px;
+  width: 75%;
+}
+
+.submit {
+  margin-left: 140px;
+  margin-top: 5px;
+}
+
+button {
+  border: solid 3px black;
+  box-shadow: 3px 3px;
+  padding: 3px 3px 3px 3px;
+}
