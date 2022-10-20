@@ -31,15 +31,16 @@ table {
   width: 100%;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
 
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+tr:nth-child(even) {
+  background-color: #ddd;
+}
 
 .listscores {
   border: solid 3px black;
@@ -48,7 +49,6 @@ td, th {
 
 .scoreboard {
   padding: 5% 5%;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   float: left;
   height: auto;
