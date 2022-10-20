@@ -15,6 +15,27 @@
 ## Getting Started
 
 - To get a local copy up and running follow these simple example steps.
+
+## Setup
+To get a local copy up and running follow these simple example steps.
+
+1.Navigate to a folder where you want the cloned file to appear
+
+2.Clone this repo in your terminal or git bash using the command
+
+'git clone https://[github.com/TechnoAndy/Leaderoard.git](https://github.com/TechnoAndy/Leaderboard)'
+
+3.run npm install to install all the necessary dependencies including the linters
+
+## Run tests
+These were linter tests mainly
+
+For css, run 'npx hint .'
+Html, run 'npx stylelint "**/*.{css,scss}"'
+Javascript 'npx eslint .'
+
+## Run automated functionality test
+To check for functionality with automated test run 'npm test'
 ### Prerequisites
 - Have a Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
 - Have git installed on the Computer
