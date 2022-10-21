@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.js"></script></head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Leaderboard</title>
+    <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+    <body>
+        <section id="wrapper">
+            <h1>Leaderboard</h1>
+            <div class="scoreboardcontainer">
+                <div class="scoreboard">
+                    <h2>Recent scores <button type="submit" id="update">Refresh</button></h2>
+                <div>
+                    <table class="list-scores">
+                       <!--  <tr>
+                        <tr>
+                            <td>Name: 100</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 20</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 50</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 78</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 125</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 77</td>
+                        </tr>
+                        <tr>
+                            <td>Name: 42</td>
+                        </tr>
+                        </tr> -->
+                    </table>
+                </div>
+                </div>
+                <div class="headscore">
+                    <h2>Add your score</h2>
+                    <form name="add-score" class="addscorecontain">
+                        <input type="text" id="player-name" placeholder="Your Name" class="scoreinputs">
+                        <input type="text" id="player-score" placeholder="Your score" class="scoreinputs">
+                        <button type="submit" id="new-score" class="submit">Submit</button>
+                        <p id="add-msg"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
