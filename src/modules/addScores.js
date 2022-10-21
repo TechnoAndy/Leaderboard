@@ -1,9 +1,9 @@
-import API_Url from "./APIconfig.js";
+import apiUrl from './APIconfig.js';
 
-const playerName = document.querySelector("#player-name");
-const playerScore = document.querySelector("#player-score");
-const form = document.querySelector("form");
-const messagePopup = document.querySelector("#add-msg");
+const playerName = document.querySelector('#player-name');
+const playerScore = document.querySelector('#player-score');
+const form = document.querySelector('form');
+const messagePopup = document.querySelector('#add-msg');
 
 const addScore = async () => {
   const user = playerName.value;
@@ -16,7 +16,7 @@ const addScore = async () => {
   }
 
   try {
-    const res = await fetch(API_Url, {
+    const res = await fetch(apiUrl, {
       method: 'POST',
       headers: {
         "Content-Type": 'application/json; charset=UTF-8',
@@ -26,8 +26,7 @@ const addScore = async () => {
 
     const data = await res.json();
     if (!res.ok) {
-      messagePopup.innerHTML =
-      'Your score could not be added, please try again';
+      messagePopup.innerHTML = 'Your score could not be added, please try again';
       messagePopup.style.color = 'red';
     }
     messagePopup.innerHTML = data.result;

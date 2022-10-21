@@ -1,4 +1,4 @@
-import API_Url from "./APIconfig.js";
+import apiUrl from './APIconfig.js';
 
 const scoreList = document.querySelector('.list-scores');
 const messagePopup = document.querySelector('#add-msg');
@@ -6,7 +6,7 @@ const ListScores = async () => {
   let alerts = '';
 
   try {
-    const res = await fetch(API_Url);
+    const res = await fetch(apiUrl);
     const data = await res.json();
     if (!res.ok) {
       scoreList.innerHTML = 'Update';

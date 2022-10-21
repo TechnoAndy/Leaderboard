@@ -90,21 +90,3 @@ button {
   height: 2rem;
 }
 
-.player-index {
-  width: 23px;
-  height: 23px;
-  background-color: white;
-  color: red;
-  text-align: center;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
-.player-scores {
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  gap: 2rem;
-}
