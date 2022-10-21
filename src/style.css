@@ -16,33 +16,44 @@ html {
   margin: 30px;
 }
 
+body {
+  background-color:thistle;
+  animation-timing-function: ease-in;
+}
+
 h1 {
   font-size: 55px;
   padding-top: 40px;
   padding-bottom: -30px;
+  text-align: center;
+  text-decoration: underline;
+  color: azure;
 }
 
 h2 {
   font-size: 30px;
+  color: azure;
+  text-decoration: underline;
 }
 
 table {
   width: 100%;
+
 }
 
 td,
 th {
-  border: 1px solid #ddd;
+  border: 2px solid white;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: white;
 }
 
 .list-scores {
-  border: solid 3px black;
+  border: solid 3px white;
   margin-top: 10px;
 }
 
@@ -69,7 +80,7 @@ tr:nth-child(even) {
 }
 
 .scoreinputs {
-  border: solid 3px black;
+  border: 2px solid white;
   margin-top: 10px;
   padding: 3px 3px 3px 3px;
   width: 75%;
@@ -81,11 +92,14 @@ tr:nth-child(even) {
 }
 
 button {
-  border: solid 3px black;
+  border: solid 3px white;
   box-shadow: 3px 3px;
   padding: 3px 3px 3px 3px;
+  transition-duration: 0.4s;
+  background-color: white;
 }
 
-#add-msg {
-  height: 2rem;
+button:hover {
+  background-color: hotpink;
+  color: white;
 }
