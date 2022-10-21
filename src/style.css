@@ -41,7 +41,7 @@ tr:nth-child(even) {
   background-color: #ddd;
 }
 
-.listscores {
+.list-scores {
   border: solid 3px black;
   margin-top: 10px;
 }
@@ -84,4 +84,27 @@ button {
   border: solid 3px black;
   box-shadow: 3px 3px;
   padding: 3px 3px 3px 3px;
+}
+
+#add-msg {
+  height: 2rem;
+}
+
+.player-index {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  color: red;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.player-scores {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
 }
