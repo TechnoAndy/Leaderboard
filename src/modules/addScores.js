@@ -19,7 +19,7 @@ const addScore = async () => {
     const res = await fetch(apiUrl, {
       method: 'POST',
       headers: {
-        "Content-Type": 'application/json; charset=UTF-8',
+        'Content-Type': 'application/json; charset=UTF-8',
       },
       body: JSON.stringify(scoreOBJ),
     });
